@@ -1,0 +1,323 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5D894675
+P 1350 650
+F 0 "BT1" V 1095 700 50  0000 C CNN
+F 1 "CR2032" V 1186 700 50  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_3002_1x2032" V 1350 710 50  0001 C CNN
+F 3 "~" V 1350 710 50  0001 C CNN
+	1    1350 650 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5D895997
+P 4200 900
+F 0 "D1" V 4147 978 50  0000 L CNN
+F 1 "LED" V 4238 978 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4200 900 50  0001 C CNN
+F 3 "~" H 4200 900 50  0001 C CNN
+	1    4200 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5D896022
+P 4650 900
+F 0 "D2" V 4597 978 50  0000 L CNN
+F 1 "LED" V 4688 978 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4650 900 50  0001 C CNN
+F 3 "~" H 4650 900 50  0001 C CNN
+	1    4650 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D89827E
+P 3550 1200
+F 0 "R1" V 3343 1200 50  0000 C CNN
+F 1 "220" V 3434 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 1200 50  0001 C CNN
+F 3 "~" H 3550 1200 50  0001 C CNN
+	1    3550 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D89A0A2
+P 3550 1600
+F 0 "R2" V 3343 1600 50  0000 C CNN
+F 1 "220" V 3434 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 1600 50  0001 C CNN
+F 3 "~" H 3550 1600 50  0001 C CNN
+	1    3550 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5D8AAB3B
+P 4400 2450
+F 0 "D4" V 4439 2333 50  0000 R CNN
+F 1 "LED" V 4348 2333 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4400 2450 50  0001 C CNN
+F 3 "~" H 4400 2450 50  0001 C CNN
+	1    4400 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5D8B2809
+P 5050 950
+F 0 "D3" V 4997 1028 50  0000 L CNN
+F 1 "LED" V 5088 1028 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5050 950 50  0001 C CNN
+F 3 "~" H 5050 950 50  0001 C CNN
+	1    5050 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5D8B42CC
+P 5100 2450
+F 0 "D6" V 5139 2333 50  0000 R CNN
+F 1 "LED" V 5048 2333 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5100 2450 50  0001 C CNN
+F 3 "~" H 5100 2450 50  0001 C CNN
+	1    5100 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5D8AAB27
+P 4900 2450
+F 0 "D5" V 4847 2528 50  0000 L CNN
+F 1 "LED" V 4938 2528 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4900 2450 50  0001 C CNN
+F 3 "~" H 4900 2450 50  0001 C CNN
+	1    4900 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 1700 3150 1600
+Wire Wire Line
+	3150 1600 3300 1600
+Wire Wire Line
+	3100 1550 3200 1550
+Wire Wire Line
+	3000 1800 3000 2250
+Wire Wire Line
+	3000 2250 3350 2250
+Wire Wire Line
+	3050 1500 3050 1200
+Wire Wire Line
+	3050 1200 3300 1200
+Wire Wire Line
+	5050 550  5050 800 
+Wire Wire Line
+	3700 1600 4650 1600
+Wire Wire Line
+	5050 1600 5050 1100
+Wire Wire Line
+	4650 1050 4650 1600
+Connection ~ 4650 1600
+Wire Wire Line
+	4650 1600 5050 1600
+Wire Wire Line
+	4200 1050 4200 1200
+Wire Wire Line
+	4200 1200 3700 1200
+Wire Wire Line
+	4200 1200 4200 2050
+Wire Wire Line
+	4200 2300 4400 2300
+Connection ~ 4200 1200
+Wire Wire Line
+	4200 2050 4900 2050
+Wire Wire Line
+	4900 2050 4900 2300
+Connection ~ 4200 2050
+Wire Wire Line
+	4200 2050 4200 2300
+Wire Wire Line
+	5050 1600 5050 2300
+Wire Wire Line
+	5050 2300 5100 2300
+Connection ~ 5050 1600
+Wire Wire Line
+	4900 2800 4900 2600
+Wire Wire Line
+	3300 2800 3300 1600
+Connection ~ 3300 1600
+Wire Wire Line
+	3300 1600 3400 1600
+Wire Wire Line
+	5100 2600 5100 2700
+Wire Wire Line
+	4400 2700 4400 2600
+Wire Wire Line
+	4400 2700 3350 2700
+Wire Wire Line
+	3350 2700 3350 2250
+Connection ~ 4400 2700
+Wire Wire Line
+	4200 650  4200 750 
+Wire Wire Line
+	4650 750  4650 650 
+Wire Wire Line
+	4650 650  4200 650 
+Wire Wire Line
+	3200 650  3200 1550
+$Comp
+L power:GND #PWR01
+U 1 1 5D8EC90C
+P 1250 650
+F 0 "#PWR01" H 1250 400 50  0001 C CNN
+F 1 "GND" H 1255 477 50  0000 C CNN
+F 2 "" H 1250 650 50  0001 C CNN
+F 3 "" H 1250 650 50  0001 C CNN
+	1    1250 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 5D8ED4F6
+P 1500 3050
+F 0 "J1" H 1608 3431 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1608 3340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1500 3050 50  0001 C CNN
+F 3 "~" H 1500 3050 50  0001 C CNN
+	1    1500 3050
+	1    0    0    -1  
+$EndComp
+Text Label 2100 2700 3    50   ~ 0
+5V,#2,#1,#0,Reset,GND
+Text Label 1700 2850 0    50   ~ 0
+GND
+Text Label 1700 2950 0    50   ~ 0
+Reset
+Text Label 1700 3050 0    50   ~ 0
+PB0
+Text Label 1700 3150 0    50   ~ 0
+PB1
+Text Label 1700 3250 0    50   ~ 0
+PB2
+Text Label 1700 3350 0    50   ~ 0
+5V
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D915E02
+P 1550 650
+F 0 "#FLG01" H 1550 725 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 823 50  0000 C CNN
+F 2 "" H 1550 650 50  0001 C CNN
+F 3 "~" H 1550 650 50  0001 C CNN
+	1    1550 650 
+	-1   0    0    1   
+$EndComp
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20SU U1
+U 1 1 5D892291
+P 1800 1800
+F 0 "U1" V 1150 2000 50  0000 R CNN
+F 1 "ATtiny85-20SU" V 1250 2000 50  0000 R CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 1800 1800 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 1800 1800 50  0001 C CNN
+	1    1800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1500 2450 1500
+Wire Wire Line
+	2400 1600 2500 1600
+Wire Wire Line
+	2400 1700 2600 1700
+Wire Wire Line
+	2400 1800 3000 1800
+Wire Wire Line
+	1800 2400 1800 2550
+Wire Wire Line
+	1800 2550 2000 2550
+Wire Wire Line
+	2000 2550 2000 2850
+Wire Wire Line
+	2000 2850 1700 2850
+Wire Wire Line
+	2400 2000 2400 2950
+Wire Wire Line
+	2400 2950 1700 2950
+Wire Wire Line
+	1800 1150 2650 1150
+Wire Wire Line
+	2650 1150 2650 3350
+Wire Wire Line
+	2650 3350 1700 3350
+Connection ~ 1800 1150
+Wire Wire Line
+	1800 1150 1800 1200
+Wire Wire Line
+	2600 1700 2600 3250
+Wire Wire Line
+	2600 3250 1700 3250
+Connection ~ 2600 1700
+Wire Wire Line
+	2600 1700 3150 1700
+Wire Wire Line
+	2500 1600 2500 3150
+Wire Wire Line
+	2500 3150 1700 3150
+Connection ~ 2500 1600
+Wire Wire Line
+	2500 1600 3100 1600
+Wire Wire Line
+	2450 3050 1700 3050
+Connection ~ 2450 1500
+Wire Wire Line
+	2450 1500 3050 1500
+Wire Wire Line
+	1100 2400 1800 2400
+Connection ~ 1800 2400
+Connection ~ 4200 650 
+Wire Wire Line
+	4200 650  3200 650 
+Wire Wire Line
+	3300 550  3300 1200
+Connection ~ 3300 1200
+Wire Wire Line
+	3300 1200 3400 1200
+Wire Wire Line
+	1550 650  1800 650 
+Connection ~ 1550 650 
+Wire Wire Line
+	1250 650  1100 650 
+Connection ~ 1250 650 
+Wire Wire Line
+	2450 1500 2450 3050
+NoConn ~ 2400 1900
+Wire Wire Line
+	1800 650  1800 1150
+Wire Wire Line
+	1100 650  1100 2400
+Wire Wire Line
+	3100 1550 3100 1600
+Wire Wire Line
+	3300 550  5050 550 
+Wire Wire Line
+	4400 2700 5100 2700
+Wire Wire Line
+	4900 2800 3300 2800
+$EndSCHEMATC
