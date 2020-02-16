@@ -12,4 +12,4 @@ Nope.
 Most definitely.
 
 ## How do I make one?
-Well, load this up in KiCad and make whatever modifications you want. Then export the drill and Gerber files and send them over to a board fab house. I recommend using (http://jlcpcb.com) [http://jlcpcb.com]. When you get the boards in hand, program the ATTiny (if the design has one) and assemble the boards. Then attach a pin back using superglue wherever you think it makes sense.
+Well, load this up in KiCad and make whatever modifications you want. Then export the drill and Gerber files and send them over to a board fab house. I recommend using http://jlcpcb.com . When you get the boards in hand, program the ATTiny (if the design has one) and assemble the boards. Then attach a pin back using superglue wherever you think it makes sense.
